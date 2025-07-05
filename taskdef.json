@@ -5,7 +5,7 @@
   "containerDefinitions": [
     {
       "name": "simp",
-      "image": "438465134214.dkr.ecr.us-east-1.amazonaws.com/sam-njs-ecr:latest",
+      "image": "438465134214.dkr.ecr.us-east-1.amazonaws.com/ecs-cd:latest",
       "cpu": 0,
       "portMappings": [
         {
