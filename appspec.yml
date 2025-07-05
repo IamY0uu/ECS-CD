@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: nodejs-TASK-D
+        TaskDefinition: zin-TD
         LoadBalancerInfo:
-          ContainerName: "njs"
+          ContainerName: "simp"
           ContainerPort: 3000
