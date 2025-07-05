@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: zin-TD
+        TaskDefinition: "arn:aws:ecs:us-east-1:438465134214:task-definition/zin-TD:1"
         LoadBalancerInfo:
           ContainerName: simp
           ContainerPort: 3000
