@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Install phase - no dependencies needed"
+  build:
+    commands:
+      - echo "Build phase - nothing to compile"
+  post_build:
+    commands:
+      - echo "Build completed on `date`"
+
+artifacts:
+  files:
+    - index.html
+    - appspec.yml
+
